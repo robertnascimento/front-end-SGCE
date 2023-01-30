@@ -42,8 +42,10 @@ body{
     width: 13vw;
     border-radius: 0 10px 10px 0;
     flex-direction: column;
+    justify-content: space-between;
     background-color: var(--azul);
     box-shadow: 2px 2px 3px 3px #888888;
+    padding-left: 2px;
 
 }
 
@@ -55,31 +57,29 @@ body{
     list-style-type: none;
 }
 
-.navbar .top{
+.navbar .topNav{
 
-    width: 13vw;
-    height: 70vh;
+    width: 12.5vw;
     align-items: flex-start;
     display: flex;
     margin-top: 10px;
 
 }
 
-.top li{
+.topNav li{
 
     margin: 10px 0 10px 0;
+    width: 12.5vw;
     transition: 0.2s;
-    width: 10vw;
     border-radius: 10px;
     border-bottom: solid 1px white;
     padding: 7px;
 
 }
 
-.top li:hover{
+.topNav li:hover{
 
     background-color: var(--cinza);
-    width: 10vw;
     position: relative;
     top: -7px;
     color: var(--azul);
@@ -88,34 +88,33 @@ body{
 
 }
 
-.bottom li{
+.bottomNav li{
 
     margin: 10px 0 10px 0;
 
 }
 
-.navbar .bottom{
+.navbar .bottomNav{
 
-    width: 13vw;
-    height: 10vh;
+    width: 12.5vw;
     display: flex;
     flex-direction: row;
     margin-bottom: 10px;
 
 }
 
-.navbar .bottom li{
+.navbar .bottomNav li{
     margin: 10px 0 10px 0;
     transition: 0.2s;
-    width: 10vw;
+    width: 12.5vw;
     border-radius: 10px;
     border-bottom: solid 1px white;
     padding: 7px;
 }
 
-.navbar .bottom li:hover{
+.navbar .bottomNav li:hover{
     background-color: var(--cinza);
-    width: 10vw;
+    width: 12.5vw;
     position: relative;
     top: -7px;
     color: var(--azul);
